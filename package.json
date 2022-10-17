@@ -2,9 +2,7 @@
   "name": "resume",
   "version": "0.2.1",
   "description": "Display resume in markdown format",
-  "repository": "git@github.com:MrHeer/resume.git",
-  "homepage": "https://MrHeer.github.io/resume",
-  "author": "MrHeer <hlm52pk@163.com>",
+  "homepage": "https://ZZITE.github.io/resume",
   "license": "MIT",
   "scripts": {
     "deploy-gh": "pnpm run build && gh-pages -d build",
