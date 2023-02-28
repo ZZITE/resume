@@ -14,15 +14,15 @@
 
 ## 🛠 技能清单
 
-- TypeScript / ReScript / Rust / Python
+- HTML / CSS / JavaScript / TypeScript / ReScript
 - React / Angular / Vue
-- Recoil / Jotai / Redux / MobX
+- Recoil / Jotai / Redux
 - Ramda / Lodash / fp-ts
 - Tailwind CSS / CSS-in-JS / Sass
 - pnpm / yarn / npm
 - GraphQL / RESTful
 - Git
-- Jest / Enzyme / Testing Library
+- Jest / Testing Library
 
 ## 🌈 工作经历
 
