@@ -30,7 +30,7 @@
 
   #### 2D 组态数据可视化编辑平台
 
-  在线访问该简历，预览项目截图示例[图 1](https://ibb.co/S5222px) [图 2](https://ibb.co/ZJWKNn3) [图 3](https://ibb.co/9bbzQ2h)
+  通过[https://zzite.github.io/resume/](https://zzite.github.io/resume/)在线访问该简历，可预览项目截图示例[示例1](https://ibb.co/S5222px) [示例2](https://ibb.co/ZJWKNn3) [示例3](https://ibb.co/9bbzQ2h)
 
   集实时数据显示，动态交互，数据管理等一体的二维可视化编辑平台。通过绘制图形，添加组件，零代码配置交互，动画，连接数据。可快速实现数字孪生，大屏可视化，Web 组态等场景需求。
 
