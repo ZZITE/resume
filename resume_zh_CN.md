@@ -8,7 +8,7 @@
 ## 🧑‍💻 个人信息
 
 - 姓名：林成艺
-- 工作经验：5 年+
+- 工作经验：6 年+
 - 学历：全日制本科
 - 专业：电子信息工程
 
@@ -16,7 +16,7 @@
 
 - HTML / CSS / JavaScript / TypeScript / ReScript
 - React / Angular / Vue
-- Recoil / Jotai / Redux
+- Recoil / Jotai / zustand / Redux
 - Ramda / Lodash / fp-ts
 - Tailwind CSS / CSS-in-JS / Sass
 - pnpm / yarn / npm
@@ -26,11 +26,23 @@
 
 ## 🌈 工作经历
 
+- ### 中海创科技（2023.03 - 至今） 高级前端工程师
+
+  #### 2D 组态数据可视化编辑平台
+
+  在线访问该简历，预览项目截图[图 1](https://ibb.co/S5222px) [图 2](https://ibb.co/ZJWKNn3) [图 3](https://ibb.co/9bbzQ2h)
+
+  集实时数据显示，动态交互，数据管理等一体的二维可视化编辑平台。通过绘制图形，添加组件，零代码配置交互，动画，连接数据。可快速实现数字孪生，大屏可视化，Web 组态等场景需求。
+
+  参与该项目从零到 1.0 版本的整个开发过程。
+
+  - 项目采用`konva.js`绘制图形。使用 `react-query`对接后端数据，`zustand`作为全局的状态管理。
+
 - ### 杭州数建科技（2020.08-2023.01）前端小组长
 
   #### mate-build 元筑
 
-  该工具实现了离线化的工程项目进度计划管理。软件分为 **计划编制**、**物资管理** 和 **清单管理** 三大模块，以量化、可视化的形式，让用户通过编制、填报、绘制等操作形式对工程行业的施工情况进行管理。软件基于 **Local First** 的思想，支持本地化编辑。（如果您在线访问该简历，这里提供一张[物资模块主要界面截图](https://imgloc.com/i/xtBxN)作为参考）
+  该工具实现了离线化的工程项目进度计划管理。软件分为 **计划编制**、**物资管理** 和 **清单管理** 三大模块，以量化、可视化的形式，让用户通过编制、填报、绘制等操作形式对工程行业的施工情况进行管理。软件基于 **Local First** 的思想，支持本地化编辑。（如果您在线访问该简历，这里提供一张[物资模块主要界面截图](https://ibb.co/QQgcbP6)作为参考）
 
   我在这个项目中作为 **物资管理** 模块的负责人，主要完成的工作有：
 
@@ -39,16 +51,14 @@
   - 设计了物资模块的基础数据结构，数据库表结构。封装提供了基于 **双向链表** 结构的一些基础操作方法来操作数据，用于快速实现如插入删除、复制粘贴、批量操作等功能，提升了团队的 **开发效率**，减少了大量 **重复代码**
   - 需求分析和开发的进度把控，需要对每个迭代周期的任务做拆解分配。协助小组成员完成任务，做 **code review** 和 **功能验收**
   - 编写完成物资模块主要的业务代码
-  - 设计 `UndoManager` 用来管理工具的操作状态历史，从而实现 `undo` `redo` 功能。它和状态管理能够有机结合，提供的 `useUndoCallback` 与 `useAtomCallback` 保持 **100%** 一致的 API，这使得使用者没有学习成本，能够**快速应用**到项目中
   - 使用 `Jotai` 来管理全局状态，原子化更新 UI，减少组件不必要的 re-render，**提升应用性能**
   - 使用 `framer-motion` `react-spring` `FLIP` 等动效技术来**提升用户体验**
-  - 封装常用的 Hook 和 Component
+  - 封装常用的 Hook/Component/utils 这里提供一段[代码示例](https://ibb.co/R9VSJL1)
 
   #### 中钢集团图纸管理
 
   作为该项目的主要负责人，从零搭建一个中钢集团内部使用的图纸类文件管理平台。功能涵盖中钢集团内部图纸的上传、识别分类、审批签章、查阅归档等。已交付部署上线使用。
 
-  - 使用 `vite` 构建项目
   - 使用 `GraphQL codegen` 搭配 `react-query` ，在开发过程中仅需编写`.graphql`文件，即可通过脚本自动生成所有带类型的`Queries`和`Mutations` `hooks`，极大程度的减少了数据传输层面的代码量，提升了开发体验和效率
   - UI 框架上选用了 `chakra-ui` ，在快速构建 UI 的同时，更加易于自定义组件样式
   - 使用 `recoil` 作为全局状态管理
@@ -87,12 +97,3 @@
 
 - [floating-ui](https://github.com/floating-ui/floating-ui)
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
-
-## 📖 阅读清单
-
-- [x] _you don't know js_
-- [x] _Head First Design Patterns_
-- [x] _The Rust Programming Language_
-- [ ] _The Cathedral & the Bazaar_
-- [ ] _Clean Code: A Handbook of Agile Software Craftsmanship_
-- [ ] _Algorithms_
