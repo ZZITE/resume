@@ -46,7 +46,7 @@
   基于 babylon.js 的[三维场景编辑器](https://ibb.co/TmgTbM9)
 
   - 负责项目的功能迭代工作。完成了包括批量复制，相机漫游，天气系统，样条线，精灵图等功能需求。优化编辑器的使用体验，如采取 Service worker 缓存较大的模型文件，减少打开页面后模型的加载时间，统一编辑器的键盘快捷键操作，优化场景分辨率，利用 mqtt 实现多点操作同步等。
-  - 封装常用的 Hook/Component/utils 这里提供一段[代码示例](https://ibb.co/frffLs5)
+  - 封装常用的 Hook/Component/utils 这里提供一段[代码示例](https://ibb.co/JrgRDDd)
 
 - ### 杭州数建科技（2020.08-2023.01）前端小组长
 
